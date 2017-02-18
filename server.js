@@ -12,7 +12,7 @@ app.use(function(req, res, next) {
 });
 
 
-var port = process.env.PORT || 8083; // SETTING TO PORT 8083
+var port = process.env.PORT || 3001; // SETTING TO PORT 8083
 
 var router = express.Router();
 
