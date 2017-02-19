@@ -17,6 +17,7 @@ var port = process.env.PORT || 3001; // SETTING TO PORT 8083
 var router = express.Router();
 
 router.get('/test', function(req, res) {
+	console.log('making get call');
 	res.json({message: 'welcome to da api'});
 });
 
